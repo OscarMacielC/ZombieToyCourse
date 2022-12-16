@@ -36,8 +36,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4226088379937200}
   - component: {fileID: 95830656091392004}
-  - component: {fileID: 114050656001430400}
-  - component: {fileID: 65134240368896004}
   m_Layer: 0
   m_Name: Blulephant
   m_TagString: Untagged
@@ -72,18 +70,6 @@ Transform:
   m_Father: {fileID: 4226088379937200}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65134240368896004
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1802432675314634}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.2055483, y: 2.2164938, z: 2.928645}
-  m_Center: {x: 0, y: 1.068247, z: 0}
 --- !u!95 &95830656091392004
 Animator:
   serializedVersion: 3
@@ -101,31 +87,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 0
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114050656001430400
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1802432675314634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa10cc87aff30c04dbe0aa648f5b6adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Spawner: {fileID: 0}
-  maxHealth: 200
-  scoreValue: 15
-  sinkSpeed: 2.5
-  deathEffectTime: 2
-  deathClip: {fileID: 0}
-  hurtClip: {fileID: 0}
-  enemyAttack: {fileID: 0}
-  enemyMovement: {fileID: 0}
-  animator: {fileID: 95830656091392004}
-  audioSource: {fileID: 0}
-  capsuleCollider: {fileID: 0}
-  hitParticles: {fileID: 0}
-  isInvulnerable: 0
 --- !u!137 &137478269449729324
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
