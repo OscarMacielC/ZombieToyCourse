@@ -245,7 +245,7 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
-  clonedFromGUID: 82c5d8c1cde404fc58e7acc7b14b6fb5
+  clonedFromGUID: 74cb37819260047689c9db0221d4ec5f
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -690,12 +690,11 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    UNet: 1
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 
-  projectName: Zombie Toys Chapter 01-03
+  projectName: 
   organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
