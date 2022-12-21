@@ -245,7 +245,7 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
-  clonedFromGUID: 58c56351e8e4e4eb698f85e143c7f750
+  clonedFromGUID: de73f0b880ce34266a31d540c7121805
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
