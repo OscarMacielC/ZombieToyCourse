@@ -31,7 +31,13 @@ public class GameManager : MonoBehaviour
 	[Header("Ally Properties")]
 	[SerializeField] AllyManager allyManager;		//A reference to the attached ally manager script
 
-	int score = 0;									//The player's current score
+	int score = 0;                                  //The player's current score
+
+	void Reset()
+	{
+		EnemyTarget = GameObject.FindWithTag("Player").transform;
+		Player = EnemyTarget.GetComponent<PlayerHealth>();
+	}
 
 	void Awake()
 	{
