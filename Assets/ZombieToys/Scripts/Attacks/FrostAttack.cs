@@ -31,10 +31,13 @@ public class FrostAttack : MonoBehaviour
 		//Create a new array of FrostDebuffs 
 		debuffs = new FrostDebuff[maxFreezableEnemies];
 		//Loop through the array...
-		for(int i = 0; i < maxFreezableEnemies; i++)
+		GameObject parentObject = new GameObject();
+		parentObject.name = "FrostDebuffs";
+		for (int i = 0; i < maxFreezableEnemies; i++)
 		{
 			//...create (instantiate) a new game object...
 			GameObject obj = (GameObject)Instantiate (frostDebuffPrefab);
+			obj.transform.parent = parentObject.transform;
 			//...deactivate it...
 			obj.SetActive (false);
 			//..and then save it into the array

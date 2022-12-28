@@ -370,7 +370,7 @@ MonoBehaviour:
   FrostDebuff: {fileID: 0}
   navMeshAgent: {fileID: 195826416244493970}
   animator: {fileID: 95030887475758404}
-  runAwayDistance: 0
+  runAwayDistance: 1
 --- !u!114 &114697115037458950
 MonoBehaviour:
   m_ObjectHideFlags: 1

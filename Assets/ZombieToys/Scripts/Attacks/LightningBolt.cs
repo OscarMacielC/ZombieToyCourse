@@ -68,7 +68,6 @@ public class LightningBolt : MonoBehaviour
 		{
 			//...grab the current keyframe, then...
 			Keyframe key = curve.keys[index];
-
 			//...calculate a new point based on our starting position, the vector of the bolt, and the position of the key (time
 			//is the position of the keyframe along the animation curve timeline and it will have a value between 0 and 1)...
 			Vector3 point = transform.position + vectorOfBolt * key.time;
