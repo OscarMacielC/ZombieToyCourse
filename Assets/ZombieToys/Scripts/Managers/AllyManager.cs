@@ -18,14 +18,13 @@ public class AllyManager : MonoBehaviour
 	void Awake()
 	{
 		//Start by instantiating an ally game object from a prefab
-
 		GameObject obj = (GameObject) Instantiate(allyPrefab);
 		//Then parent it to this game object
 		obj.transform.parent = transform;
 		//Then grab a reference to its Ally script
 		ally = obj.GetComponent<Ally>();
 		//Finally disable it so it is ready to be used later
-		ally.gameObject.SetActive(false);
+		obj.SetActive(false);
 		//If the allyImage exists, disable it
 		if(allyImage != null)
 			allyImage.enabled = false;
@@ -56,10 +55,7 @@ public class AllyManager : MonoBehaviour
 	{
 		//If an ally can't be summoned, return a value of null (nothing)
 		if (!CanSummonAlly())
-        {
-			//Debug.Log("Can't summon, actual points:"+allyPoints);
 			return null;
-		}
 
 		//Align the ally's position and rotation with the spawn point
 		ally.transform.position = allySpawnPoint.position;
@@ -67,8 +63,6 @@ public class AllyManager : MonoBehaviour
 		//Enable the ally and tell it to move towards the enemy's target (which
 		//should be the player)
 		ally.gameObject.SetActive(true);
-		//Debug.Log("Setactive true "+ally.name);
-
 		ally.Move(GameManager.Instance.EnemyTarget.position);
 
 		//If there is an allyImage, turn it off
