@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 18
-  productGUID: 22bf960d1730a3d4d9798058947cb26e
+  productGUID: d26d813c337ade841aeed60c32ee8559
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 3
@@ -245,7 +245,7 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
-  clonedFromGUID: 5da024d49fcc74b048404eb3c4549b86
+  clonedFromGUID: dc4cdb6f08a7d4cd0bc19cff401c9212
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -261,13 +261,12 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  resolutionDialogBanner: {fileID: 2800000, guid: 472d4bd5c12fce244bce9a104532a3e2,
-    type: 3}
+  resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: beabc4f30281a07429e18475608f263a, type: 3}
+      m_Icon: {fileID: 0}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -595,7 +594,6 @@ PlayerSettings:
     16: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   platformArchitecture:
     iOS: 0
-    tvOS: 1
   scriptingBackend:
     Android: 0
     Metro: 2
@@ -603,10 +601,8 @@ PlayerSettings:
     WP8: 2
     WebGL: 1
     iOS: 0
-    tvOS: 1
   incrementalIl2cppBuild:
     iOS: 0
-    tvOS: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 0
   apiCompatibilityLevelPerPlatform: {}
