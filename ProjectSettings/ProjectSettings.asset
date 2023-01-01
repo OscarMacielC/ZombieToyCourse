@@ -245,7 +245,7 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
-  clonedFromGUID: a35031341bd154cc8b0691013fa24f5a
+  clonedFromGUID: 5da024d49fcc74b048404eb3c4549b86
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -594,6 +594,7 @@ PlayerSettings:
     16: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   platformArchitecture:
     iOS: 0
+    tvOS: 1
   scriptingBackend:
     Android: 0
     Metro: 2
@@ -601,8 +602,10 @@ PlayerSettings:
     WP8: 2
     WebGL: 1
     iOS: 0
+    tvOS: 1
   incrementalIl2cppBuild:
     iOS: 0
+    tvOS: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 0
   apiCompatibilityLevelPerPlatform: {}
